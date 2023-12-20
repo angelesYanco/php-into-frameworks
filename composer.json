@@ -1,0 +1,19 @@
+{
+    "name": "apena/php-into-frameworks",
+    "description": "Proyecto Basico",
+    "authors": [
+        {
+            "name": "Antonio Peña",
+            "email": "angeles_yanco@hotmail.com"
+        }
+    ],
+    "require": {},
+    "autoload.php": {
+        "ps-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/helpers.php"
+        ]
+    }
+}
